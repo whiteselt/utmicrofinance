@@ -1,0 +1,83 @@
+body {
+	background-color:#A3A2A2;
+	color:#DADADA;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 16px;
+	font-weight: normal;
+	
+	
+}
+
+a{
+	text-decoration:none;
+	color: #D2CDCD;
+	font-family: Tahoma;
+}
+a:hover{
+	
+	color: white;
+}
+
+.box1{
+	background-color:#767373;
+	border-right:7px #C5C4C4 solid;
+	border-left: 7px #C5C4C4 solid;
+	border-top: 7px #C5C4C4 solid;
+	border-bottom: 7px #C5C4C4 solid;
+	padding-left: 5px;
+}
+.container{
+	padding-top: 50px;
+	width: 80%;
+	margin: auto;
+}
+.navbar{
+	height: 50px;
+	box-shadow: 1px 1px 1px 2px #242424;
+	background-color:#343333;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	align-content: center;
+}
+
+
+.box1 h1{
+	font-family: Tahoma;
+	font-weight: 800px;
+	font-style: italic;
+	
+}
+.navbar ul{
+	list-style: none;
+	text-align:center;
+	
+	
+	
+}
+.navbar ul li{
+	float:left;
+	padding: 20px;
+	font-size: 12px;
+	margin-right: 20px;	
+	width: 100px;
+	
+}
+.navbar a{
+	line-height: 15px;
+	display:block;
+	/*width: 430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
