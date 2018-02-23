@@ -13,8 +13,9 @@ a{
 	color: #D2CDCD;
 	font-family: Tahoma;
 }
-a:hover{	
-	color: white;
+
+a:hover{
+	color:white;
 }
 
 .box1{
@@ -23,17 +24,20 @@ a:hover{
 	padding-left: 5px;
 }
 .container{
-	padding-top: 50px;
+	padding-top:50px;
 	width: 80%;
 	margin: auto;
 } 
 .navbar{
 	height: 50px;
+	width: 100%;
 	box-shadow: 1px 1px 1px 2px #242424;
 	background-color:#343333;
 	margin-bottom: 10px;
 	border-radius: 5px;
 	align-content: center;
+	position: fixed;
+	z-index: 100;
 }
 
 
@@ -44,13 +48,18 @@ a:hover{
 	
 }
 .navbar ul{
+	width:100%;
 	list-style: none;
 	text-align:center;
-
-	
-	
-	
+	padding-top:2px;
+	padding-left:60px;
+	padding-bottom: 50px;
 }
+
+.navbar a:hover{
+	color:white;
+}
+
 .navbar ul li{
 	float:left;
 	padding-left:5%;
@@ -58,7 +67,7 @@ a:hover{
 	font-size: 12px;
 	/* margin-right: 20px;	 */
 	width:100;
-	padding-top: 18px;
+	margin-bottom: 50px;
 	
 }
 .navbar a{
@@ -66,6 +75,10 @@ a:hover{
 }
 .navbar img {
 	float:left;
+}
+
+.navbar img{
+	padding-top: 3px;
 }
 
 
